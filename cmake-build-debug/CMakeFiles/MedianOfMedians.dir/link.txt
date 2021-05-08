@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/MedianOfMedians.dir/main.cpp.o -o MedianOfMedians 

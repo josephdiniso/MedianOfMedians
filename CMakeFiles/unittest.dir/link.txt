@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/unittest.dir/unit_tests.cpp.o CMakeFiles/unittest.dir/median.cpp.o -o unittest  /usr/local/lib/libCatch2.a 

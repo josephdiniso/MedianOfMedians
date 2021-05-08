@@ -1,0 +1,3 @@
+/home/jdiniso/github/MedianOfMedians/CMakeFiles/edit_cache.dir
+/home/jdiniso/github/MedianOfMedians/CMakeFiles/rebuild_cache.dir
+/home/jdiniso/github/MedianOfMedians/CMakeFiles/unittest.dir

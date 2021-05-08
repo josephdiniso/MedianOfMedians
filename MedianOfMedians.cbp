@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MedianOfMedians"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\Catch2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jdiniso/github/MedianOfMedians"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jdiniso/github/MedianOfMedians/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jdiniso/github/MedianOfMedians/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jdiniso/github/MedianOfMedians/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jdiniso/github/MedianOfMedians/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jdiniso/github/MedianOfMedians"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jdiniso/github/MedianOfMedians/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jdiniso/github/MedianOfMedians/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jdiniso/github/MedianOfMedians/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jdiniso/github/MedianOfMedians/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jdiniso/github/MedianOfMedians"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jdiniso/github/MedianOfMedians/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jdiniso/github/MedianOfMedians/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jdiniso/github/MedianOfMedians/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jdiniso/github/MedianOfMedians/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unittest">
+				<Option output="/home/jdiniso/github/MedianOfMedians/unittest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jdiniso/github/MedianOfMedians"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jdiniso/github/MedianOfMedians/Makefile&quot;  VERBOSE=1 unittest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jdiniso/github/MedianOfMedians/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jdiniso/github/MedianOfMedians/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jdiniso/github/MedianOfMedians/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unittest/fast">
+				<Option output="/home/jdiniso/github/MedianOfMedians/unittest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jdiniso/github/MedianOfMedians"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jdiniso/github/MedianOfMedians/Makefile&quot;  VERBOSE=1 unittest/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jdiniso/github/MedianOfMedians/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jdiniso/github/MedianOfMedians/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jdiniso/github/MedianOfMedians/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jdiniso/github/MedianOfMedians/median.cpp">
+			<Option target="unittest"/>
+		</Unit>
+		<Unit filename="/home/jdiniso/github/MedianOfMedians/median.hpp">
+			<Option target="unittest"/>
+		</Unit>
+		<Unit filename="/home/jdiniso/github/MedianOfMedians/unit_tests.cpp">
+			<Option target="unittest"/>
+		</Unit>
+		<Unit filename="/home/jdiniso/github/MedianOfMedians/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jdiniso/github/MedianOfMedians/../../../../usr/local/lib/cmake/Catch2/Catch2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Catch2\"/>
+		</Unit>
+		<Unit filename="/home/jdiniso/github/MedianOfMedians/../../../../usr/local/lib/cmake/Catch2/Catch2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Catch2\"/>
+		</Unit>
+		<Unit filename="/home/jdiniso/github/MedianOfMedians/../../../../usr/local/lib/cmake/Catch2/Catch2Targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Catch2\"/>
+		</Unit>
+		<Unit filename="/home/jdiniso/github/MedianOfMedians/../../../../usr/local/lib/cmake/Catch2/Catch2Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Catch2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
